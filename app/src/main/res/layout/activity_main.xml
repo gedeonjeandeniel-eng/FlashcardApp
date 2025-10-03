@@ -26,8 +26,19 @@
         android:text="Donald Trump"
         android:textAlignment="center"
         android:textSize="40sp"
-
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/myBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:srcCompat="@drawable/my_icon_name"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+
+
+
+
 
 
 </RelativeLayout>
